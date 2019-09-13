@@ -1,7 +1,5 @@
 def square_array(array)
-  numbers = [1, 2, 3]
-  answer_array = []
-  numbers.each do |ele|
+  array.each do |ele|
     answer_array.push(ele * ele)
   end
   return answer_array
