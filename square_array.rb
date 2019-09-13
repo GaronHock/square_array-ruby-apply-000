@@ -1,6 +1,5 @@
 def square_array(array)
   square_array = []
-  another_square_array = []
   numbers = [1,2,3]
    i = 0 
    while i < numbers.length 
@@ -10,8 +9,7 @@ def square_array(array)
   end
   return square_array
   
-  numbers.each { |ele| square_array << ele }
-  return square_array
+
   
   
   
